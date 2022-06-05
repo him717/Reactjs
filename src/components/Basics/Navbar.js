@@ -1,6 +1,6 @@
 import React from 'react'
-import Menu from './MenuAPI';
-import MenuCard from './MenuCard';
+// import Menu from './MenuAPI';
+// import MenuCard from './MenuCard';
 
 function Navbar( {filterItems, menuList}) {
 

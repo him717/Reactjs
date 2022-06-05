@@ -9,7 +9,7 @@ const uniqueEle = [
   return currentEle.category;
 }
   )),
-"All",]
+"All",] // for all button.
 
 console.log(uniqueEle);
 function Restaurant() {
@@ -32,7 +32,7 @@ function Restaurant() {
   
   return (
     <>
-        <Navbar filterItems={filterItems} menuList={menuList}/>
+      <Navbar filterItems={filterItems} menuList={menuList}/>
 
       <MenuCard menuData={menuData}/>
         
